@@ -7,15 +7,28 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Background</title>
     <style>
+        body {
+            height: 200vh;
+        }
+
         div {
             margin: 50px 30px;
             width: 80%;
             height: 30vh;
-            border: 4px solid black;
+            border: 40px dotted black;
             font-size: 40px;
             color: red;
-            background-color: rgba(0, 0, 0, 0.4);
-            background-image: url(bg1.jpg);
+            /* padding: 30px; */
+            background-color: rgba(0, 0, 0, .4);
+            /* background-image: url(bg2.jpg), url(bg1.jpg), url(bg_big.jpg); */
+            /* background-repeat: no-repeat, repeat-x; */
+            background-image: url(bg2.jpg);
+            background-repeat: no-repeat;
+            /* background-position: center; */
+            /* background-size: 100% auto; */
+            /* background-attachment: fixed; */
+            background-clip: border-box;
+            background-image: linear-gradient(954deg, white 50%, red 100%);
         }
     </style>
 </head>
